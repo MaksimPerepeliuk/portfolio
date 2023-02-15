@@ -137,7 +137,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalOne}>
-                    <img src="/img/cancel.svg" alt="close icon" />
+                    <img src="img/cancel.png" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
