@@ -184,8 +184,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalTwo}>
-                    <p>close</p>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -236,8 +235,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalThree}>
-                    <p>close</p>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -289,7 +287,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalFour}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -341,7 +339,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalFive}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -392,7 +390,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalSix}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -442,7 +440,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalEleven}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -493,7 +491,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalEight}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -543,7 +541,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalNine}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -592,7 +590,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalTen}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -640,7 +638,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalSeven}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -690,7 +688,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalTwelve}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -736,7 +734,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalThirteen}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -788,7 +786,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalOne}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -835,7 +833,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalTwo}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -886,7 +884,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalThree}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -942,7 +940,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalFour}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -994,7 +992,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalFive}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -1045,7 +1043,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalSix}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -1095,7 +1093,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalEleven}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -1148,7 +1146,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalNine}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -1197,7 +1195,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalTen}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -1252,7 +1250,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalTwelve}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -1298,7 +1296,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalThirteen}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -1352,7 +1350,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalEight}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
@@ -1400,7 +1398,7 @@ const Portfolio = () => {
               >
                 <div>
                   <button className="close-modal" onClick={toggleModalSeven}>
-                    <img src="/img/cancel2.svg" alt="close icon" />
+                    <img src="img/cancel2.svg" alt="close icon" />
                   </button>
                   {/* End close icon */}
 
