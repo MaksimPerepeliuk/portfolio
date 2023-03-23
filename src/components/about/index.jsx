@@ -4,6 +4,7 @@ import Experience from "./Experience";
 import Experience2 from "./Experience2";
 import PersonalInfo from "./PersonalInfo";
 import Skills from "./Skills";
+import Certificate from "./Certificate";
 
 const Index = () => {
   useEffect(() => {
@@ -40,7 +41,7 @@ const Index = () => {
               {/* End personal info */}
 
               <div className="col-12 mt-1">
-                <a className="button" href="MaksimPerepelyukCV.pdf" download>
+                <a className="button" href="MaksimPerepelyukResume.pdf" download>
                   <span className="button-text">Скачать резюме</span>
                   <span className="button-icon fa fa-download"></span>
                 </a>
@@ -84,6 +85,21 @@ const Index = () => {
           </div>
         </div>
         {/*  Experience & Education Ends */}
+      </div>
+      <div className="portfolio professional">
+        <div className="col-12">
+          <h3 className="text-uppercase pb-5 mb-0 text-left text-sm-center custom-title ft-wt-600">
+            Сертификаты
+          </h3>
+        </div>
+        <div
+          className="container grid-gallery main-content"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+          data-aos-delay="100"
+        >
+          <Certificate />
+        </div>
       </div>
     </section>
   );

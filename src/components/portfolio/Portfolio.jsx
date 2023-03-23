@@ -14,6 +14,10 @@ import ModalTenContent from "./modal/ModalTenContent";
 import ModalElevenContent from "./modal/ModalElevenContent";
 import ModalTwelveContent from "./modal/ModalTwelveContent";
 import ModalThirteenContent from "./modal/ModalThirteenContent";
+import ModalFourteenContent from "./modal/ModalFourteenContent";
+import ModalFifteenContent from "./modal/ModalFifteenContent";
+
+
 
 const Portfolio = () => {
   const [isModalClosed, setModalClosed] = useState(false);
@@ -30,6 +34,9 @@ const Portfolio = () => {
   const [isOpen11, setIsOpen11] = useState(false);
   const [isOpen12, setIsOpen12] = useState(false);
   const [isOpen13, setIsOpen13] = useState(false);
+  const [isOpen14, setIsOpen14] = useState(false);
+  const [isOpen15, setIsOpen15] = useState(false);
+
 
   const toggleModalOne = () => {
     setIsOpen(!isOpen);
@@ -81,6 +88,14 @@ const Portfolio = () => {
   };
   const toggleModalThirteen = () => {
     setIsOpen13(!isOpen13);
+    setModalClosed(true);
+  };
+  const toggleModalFourteen = () => {
+    setIsOpen14(!isOpen14);
+    setModalClosed(true);
+  };
+  const toggleModalFifteen = () => {
+    setIsOpen15(!isOpen15);
     setModalClosed(true);
   };
 
@@ -745,6 +760,100 @@ const Portfolio = () => {
               </Modal>
               {/* End  ModalElevenContent */}
             </li>
+
+            <li
+              className="direction-reveal"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="100"
+            >
+              <figure className="vh-25" onClick={toggleModalFourteen}>
+                <img
+                  src="img/projects/cohortanalysis.png"
+                  alt="Portolio"
+                  className="max-height"
+                />
+                <div className="hover-content-wrapper">
+                  <span className="content-title">Cohort analysis in PostgreSQL</span>
+                </div>
+              </figure>
+              <div className="post-content" onClick={toggleModalFourteen}>
+                <div className="entry-header">
+                  <h3>Когортный анализ онлайн магазина в PostgreSQL</h3>
+                </div>
+              </div>
+
+              {/* Start ModalSixContent */}
+              <Modal
+                isOpen={isOpen14}
+                onRequestClose={toggleModalFourteen}
+                contentLabel="My dialog"
+                className="custom-modal dark"
+                overlayClassName="custom-overlay dark"
+                closeTimeoutMS={500}
+                ariaHideApp={false}
+              >
+                <div>
+                  <button className="close-modal" onClick={toggleModalFourteen}>
+                    <img src="img/cancel2.svg" alt="close icon" />
+                  </button>
+                  {/* End close icon */}
+
+                  <div className="box_inner blog-post mt-5">
+                    <ModalFourteenContent />
+                  </div>
+                </div>
+              </Modal>
+              {/* End  ModalElevenContent */}
+            </li>
+
+            <li
+              className="direction-reveal"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="200"
+            >
+              <figure className="vh-25" onClick={toggleModalFifteen}>
+                <img
+                  src="img/projects/unit_calc_dashboard.png"
+                  alt="Portolio"
+                  className="max-height"
+                />
+                <div className="hover-content-wrapper">
+                  <span className="content-title">Unit economy calc in EXCEL</span>
+                </div>
+              </figure>
+              <div className="post-content" onClick={toggleModalFifteen}>
+                <div className="entry-header">
+                  <h3>Калькулятор юнит-экономики в Excel</h3>
+                </div>
+              </div>
+
+              {/* Start ModalSixContent */}
+              <Modal
+                isOpen={isOpen15}
+                onRequestClose={toggleModalFifteen}
+                contentLabel="My dialog"
+                className="custom-modal dark"
+                overlayClassName="custom-overlay dark"
+                closeTimeoutMS={500}
+                ariaHideApp={false}
+              >
+                <div>
+                  <button className="close-modal" onClick={toggleModalFifteen}>
+                    <img src="img/cancel2.svg" alt="close icon" />
+                  </button>
+                  {/* End close icon */}
+
+                  <div className="box_inner blog-post mt-5">
+                    <ModalFifteenContent />
+                  </div>
+                </div>
+              </Modal>
+              {/* End  ModalElevenContent */}
+            </li>
+
+
             {/* <!-- Portfolio Item Ends --> */}
           </ul>
         </TabPanel>
@@ -895,6 +1004,100 @@ const Portfolio = () => {
               </Modal>
               {/* End  ModalThreeContent */}
             </li>
+
+            <li
+              className="direction-reveal"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="100"
+            >
+              <figure className="vh-25" onClick={toggleModalFourteen}>
+                <img
+                  src="img/projects/cohortanalysis.png"
+                  alt="Portolio"
+                  className="max-height"
+                />
+                <div className="hover-content-wrapper">
+                  <span className="content-title">Cohort analysis in PostgreSQL</span>
+                </div>
+              </figure>
+              <div className="post-content" onClick={toggleModalFourteen}>
+                <div className="entry-header">
+                  <h3>Когортный анализ онлайн магазина в PostgreSQL</h3>
+                </div>
+              </div>
+
+              {/* Start ModalSixContent */}
+              <Modal
+                isOpen={isOpen14}
+                onRequestClose={toggleModalFourteen}
+                contentLabel="My dialog"
+                className="custom-modal dark"
+                overlayClassName="custom-overlay dark"
+                closeTimeoutMS={500}
+                ariaHideApp={false}
+              >
+                <div>
+                  <button className="close-modal" onClick={toggleModalFourteen}>
+                    <img src="img/cancel2.svg" alt="close icon" />
+                  </button>
+                  {/* End close icon */}
+
+                  <div className="box_inner blog-post mt-5">
+                    <ModalFourteenContent />
+                  </div>
+                </div>
+              </Modal>
+              {/* End  ModalElevenContent */}
+            </li>
+
+            <li
+              className="direction-reveal"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="200"
+            >
+              <figure className="vh-25" onClick={toggleModalFifteen}>
+                <img
+                  src="img/projects/unit_calc_dashboard.png"
+                  alt="Portolio"
+                  className="max-height"
+                />
+                <div className="hover-content-wrapper">
+                  <span className="content-title">Unit economy calc in EXCEL</span>
+                </div>
+              </figure>
+              <div className="post-content" onClick={toggleModalFifteen}>
+                <div className="entry-header">
+                  <h3>Калькулятор юнит-экономики в Excel</h3>
+                </div>
+              </div>
+
+              {/* Start ModalSixContent */}
+              <Modal
+                isOpen={isOpen15}
+                onRequestClose={toggleModalFifteen}
+                contentLabel="My dialog"
+                className="custom-modal dark"
+                overlayClassName="custom-overlay dark"
+                closeTimeoutMS={500}
+                ariaHideApp={false}
+              >
+                <div>
+                  <button className="close-modal" onClick={toggleModalFifteen}>
+                    <img src="img/cancel2.svg" alt="close icon" />
+                  </button>
+                  {/* End close icon */}
+
+                  <div className="box_inner blog-post mt-5">
+                    <ModalFifteenContent />
+                  </div>
+                </div>
+              </Modal>
+              {/* End  ModalElevenContent */}
+            </li>
+
+
           </ul>
         </TabPanel>
         {/* End Logo Project */}

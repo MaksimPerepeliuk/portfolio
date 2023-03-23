@@ -13,14 +13,14 @@ const App = () => {
 
   return (
     <>
-      <AnimatedCursor
+      {/* <AnimatedCursor
         innerSize={8}
         outerSize={30}
         color="233, 75, 60"
         outerAlpha={0.3}
         innerScale={0.7}
         outerScale={1.2}
-      />
+      /> */}
       <ScrollToTop />
       <Routes />
     </>
